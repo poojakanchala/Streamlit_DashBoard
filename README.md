@@ -64,7 +64,7 @@ The dashboard is designed as a **multi-page analytical application** that allows
 
 ## 📂 Project Structure
 
-Home-Credit-Dashboard/
+''''Home-Credit-Dashboard/
 |
 |-- app.py                                  Main Streamlit application
 |-- requirements.txt                        Project dependencies
@@ -83,7 +83,7 @@ Home-Credit-Dashboard/
 |    |-- 2_Customer_Profile_Analysis.py
 |    |-- 3_Financial_Behavior_Insights.py
 |    |-- 4_Credit_Risk_Segmentation.py
-|    |-- 5_Model_Performance_and_Feature_Importance.py
+|    |-- 5_Model_Performance_and_Feature_Importance.py'''
 
 
 
