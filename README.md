@@ -62,27 +62,28 @@ The dashboard is designed as a **multi-page analytical application** that allows
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Structure
 
-project_name/
-│
-├── app.py # Main Streamlit application
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-│
-├── data/ # Dataset folder
-│ └── application_train_clean.csv # Cleaned dataset used for dashboard
-│
-├── utils/ # Utility functions
-│ ├── filters.py # Contains load_data() and global filter functions
-│ ├── prep.py
-│ └── init.py
-│
-└── pages/ # Streamlit multi-page screens
-├── 1_Overview_and_Data_Quality.py
-├── 2_Customer_Profile_Analysis.py
-├── 3_Financial_Behavior_Insights.py
-├── 4_Credit_Risk_Segmentation.py
-└── 5_Model_Performance_and_Feature_Importance.py
+Home-Credit-Dashboard/
+|
+|-- app.py                                  Main Streamlit application
+|-- requirements.txt                        Project dependencies
+|-- README.md                               Project documentation
+|
+|-- data/                                   Dataset folder
+|    |-- application_train_clean.csv        Cleaned dataset used for dashboard
+|
+|-- utils/                                  Utility functions
+|    |-- filters.py                         Contains load_data() and global filter functions
+|    |-- prep.py                            Data preprocessing helper functions
+|    |-- __init__.py
+|
+|-- pages/                                  Streamlit multi-page screens
+|    |-- 1_Overview_and_Data_Quality.py
+|    |-- 2_Customer_Profile_Analysis.py
+|    |-- 3_Financial_Behavior_Insights.py
+|    |-- 4_Credit_Risk_Segmentation.py
+|    |-- 5_Model_Performance_and_Feature_Importance.py
+
 
 
