@@ -85,5 +85,23 @@ The dashboard is designed as a **multi-page analytical application** that allows
 |    |-- 4_Credit_Risk_Segmentation.py
 |    |-- 5_Model_Performance_and_Feature_Importance.py)
 
+home-credit-dashboard/
+│── app.py                # Main Streamlit app
+│── preprocess.py         # Data preprocessing script
+│── requirements.txt      # Dependencies
+│── README.md             # Project documentation
+│── .gitignore            # Ignore unnecessary files
+└── application_train.csv # Dataset (download from Kaggle)
+
+# Streamlit Dashboard
+
+This is my Streamlit Dashboard project.
+
+copy the link and paste it in your browser
+
+🔗 **Live Demo:**  
+[Click here to open the app](https://guguloththarun7app.streamlit.app/)
+
+
 
 
